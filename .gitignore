@@ -1,0 +1,24 @@
+# Development/Source Files
+extracted-app/
+extracted-app-original/
+temp-check/
+
+# Development Scripts
+*.js
+!locales/**/*.js
+
+# Development Files
+package.json
+nul
+
+# Git metadata
+.git/
+.claude/
+
+# User Data (will be created at runtime)
+*.log
+*.tmp
+
+# Large files (distribute via GitHub Releases instead)
+易火-ETor.exe
+*.exe
